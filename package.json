@@ -1,7 +1,7 @@
 {
-    "name": "grunt-svg2png",
+    "name": "grunt-svg2png-mod",
 
-    "description": "Grunt plugin to rasterize SVG to PNG images using PhantomJS",
+    "description": "Grunt plugin to rasterize SVG to PNG images using PhantomJS. Modified to fix a Grunt dependency issue.",
 
     "version": "0.2.7",
 
@@ -37,7 +37,7 @@
     },
 
     "devDependencies": {
-        "grunt": "~0.4.0",
+        "grunt": ">=0.4.0",
         "grunt-contrib-jshint": "~0.2.0",
         "grunt-contrib-nodeunit": "~0.1.2",
         "grunt-contrib-clean": "~0.4.0",
